@@ -34,5 +34,6 @@ function sequence_sum(int $begin, int $end, int $step): int {
     return $sum;
   }
 
-  echo(sequence_sum(2,6,2));
-  echo(sequence_sum(1,5,3));
+  //tests
+  echo(sequence_sum(2,6,2)); //should be 12
+  echo(sequence_sum(1,5,3)); //should be 5
