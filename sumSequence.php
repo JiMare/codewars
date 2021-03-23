@@ -24,11 +24,11 @@ function sequence_sum(int $begin, int $end, int $step): int {
     }
     else{
       $sum  = $begin;
-      $narust = $begin;
-      while(($narust + $step) <= $end)
+      $increase = $begin;
+      while(($increase + $step) <= $end)
       {
-       $narust += $step; 
-       $sum += $narust;
+       $increase += $step; 
+       $sum += $increase;
       }
     }
     return $sum;
